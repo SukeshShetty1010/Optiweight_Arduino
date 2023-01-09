@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout_
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50px"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/truck"
+            android:layout_marginTop="90px"
+            android:layout_gravity="center_horizontal"
+            ></ImageView>
+        <Button
+            android:layout_width="500px"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30px"
+            android:text="Gryomap"
+            android:textAllCaps="false"
+            android:id="@+id/gyromap"
+            android:padding="40px"
+            />
+
+        <Button
+            android:layout_width="500px"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30px"
+            android:text="Heatmap"
+            android:textAllCaps="false"
+            android:id="@+id/heatmap"
+            android:padding="40px"
+            />
+        <Button
+            android:layout_width="500px"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30px"
+            android:text="Roadmap"
+            android:textAllCaps="false"
+            android:id="@+id/roadmap"
+            android:padding="40px"
+            />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
